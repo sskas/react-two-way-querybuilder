@@ -154,7 +154,7 @@ class Rule extends React.Component {
           type="button"
           className={this.styles.deleteBtn}
           onClick={this.handleDelete}
-        >{this.props.buttonsText.delete}</button>
+        ><svg><use xlinkHref="#queryicon-remove"/></svg></button>
       </div>
     );
   }
